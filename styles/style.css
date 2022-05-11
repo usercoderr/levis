@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    top: 0%;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    display: block
+}
+
+.nav_menu1{
+    list-style: none;
+    display: inline-flex;
+}
+.nav_menu1 li{
+    margin: 0px 20px;
+    position: relative;
+    left: 900px;
+}
+.nav_menu1 li a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+.nav_menu2{
+    list-style: none;
+    display: inline-flex;
+}
+.nav_menu2 li{
+    margin: 0px 20px;
+    position: relative;
+    right: 50px;
+    top: -30px;
+    
+}
+.nav_menu2 li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    
+}
+
+.menu2 img{
+    display: inline-block;
+    left: 10%;
+    position: relative
+}
+.menu2 input{
+    left: 550px;
+    display: inline-block;
+    position: relative;
+    top: -25px;
+}
+main{
+    padding-top: 10%;
+}
+.block1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+.block1 h1{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 16px;
+   
+    letter-spacing: .04em;
+}
+.sex li{
+    display: inline-flex;
+    margin: 0px 20px;
+    
+}
+.sex li a{
+    color: black;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration-color: red;
+    margin-bottom: 20px;
+}
+.block2{
+    background-image: url(/img/1.jpeg);
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.block3{
+    background-image: url(/img/2.jpeg);
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.block4 h2{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 16px;
+    letter-spacing: .04em;
+}
+.block4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+.block5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+
+}
+.block5 h2{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* padding-top: px; */
+    letter-spacing: .04em;
+}
+.collection a{
+    color: white;
+}
+.collection li {
+    list-style: none;
+}
+.block6{
+    background-image: url(/img/levis\ logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: 650px;
+}
+.block7 {
+    float: left;
+    padding: 2px 10px;
+    background-color: rgb(209, 209, 209);
+    width: 100%;
+}
+.block7 p{
+    float: left;
+    padding: 0px 10px;
+    background-color: rgb(209, 209, 209);
+    width: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+.block7 img{
+    position: relative;
+
+    top: 150px;
+    left: 100px;
+}
+.block8{
+    background-image: url(/img/blackbglogo.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: 650px;
+}
+.phone{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10%;
+    bottom: 10%;
+
+    
+}
+.phone img{
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: fixed;
+}
